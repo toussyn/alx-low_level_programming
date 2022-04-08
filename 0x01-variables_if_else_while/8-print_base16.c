@@ -15,6 +15,7 @@ int main(void)
 {
 	char alpha;
 	int a = 0;
+
 	while (a < 10)
 	{
 		putchar(a + '0');
