@@ -9,7 +9,8 @@
 *Return: 1
 */
 
-int main() {
+int main(void)
+{
 	int a = 0;
 
 	while (a < 10)
@@ -19,5 +20,5 @@ int main() {
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
