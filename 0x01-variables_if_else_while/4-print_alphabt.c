@@ -6,7 +6,7 @@
 *
 * Return: 1
 */
-int main()
+int main(void)
 {
 	char alpha;
 
