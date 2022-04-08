@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - Prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+* main - Prints the alphabet in lowercase, 
+* and then in uppercase, followed by a new line.
 *
 * Return: 1
 */
-int main()
+int main(void)
 {
 	char alpha;
 	char alpha_big;
@@ -17,7 +18,7 @@ int main()
 
 	for (alpha_big = 'A'; alpha_big  <= 'Z'; alpha_big++)
 	{
-		putchar(alpha_big );
+		putchar(alpha_big);
 	}
 	putchar('\n');
 
