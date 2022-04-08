@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*Write a program that prints all possible
+*main - Write a program that prints all possible
 *combinations of single-digit numbers.
 *Numbers must be separated by ,,
 *followed by a space
@@ -12,8 +12,8 @@
 *You can only use putchar four times maximum in your code
 *You are not allowed to use any variable of type char
 *
-* Return 1
-* */
+* Return 1 success
+*/
 
 int main(void)
 {
