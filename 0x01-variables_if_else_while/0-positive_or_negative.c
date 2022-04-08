@@ -1,6 +1,6 @@
-#include <stdio.h> 
-#include <stdlib.h> 
-#include <time.h> 
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
 * main - Check if a number is greater than 0
 * @n: The number to be checked
@@ -11,22 +11,22 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));    
-	n = rand() - RAND_MAX / 2;     
-		        
-        if (n > 0)
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
 	{
-		printf("%d is positive\n", n);
-        }
-        else if (n < 0)
-	{
-	     	printf("%d is negative\n", n);
+	printf("%d is positive\n", n);
 	}
-	else 
+	else if (n < 0)
 	{
-		printf("%d is zero\n", n);
+	printf("%d is negative\n", n);
 	}
-				    
-        return (0); 
+	else
+	{
+	printf("%d is zero\n", n);
+	}
+
+	return (0);
 
 }
