@@ -2,12 +2,11 @@
 #include <stdlib.h> 
 #include <time.h> 
 /** 
- * * main - Check if a number is greater than 0 
- * * @n: The number to be checked 
+ * * main - Check if a number is greater than 0
+ * * @n: The number to be checked
  * * 
- * * Return: 1 if the number is positive. 0 otherwise 
+ * * Return: 1 if the number is positive. 0 otherwise
  * */
-
 int main(void) 
 {    
 	int n;
@@ -17,15 +16,15 @@ int main(void)
 		        
         if (n > 0)
 	{
-		printf("%d is positive", n);
+		printf("%d is positive\n", n);
         }
         else if (n < 0)
 	{
-	     	printf("%d is negative", n);
+	     	printf("%d is negative\n", n);
 	}
 	else 
 	{
-		printf("%d is zero", n);
+		printf("%d is zero\n", n);
 	}
 				    
         return (0); 
