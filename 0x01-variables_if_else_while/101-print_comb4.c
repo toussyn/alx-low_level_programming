@@ -25,7 +25,6 @@ int i, j, k;
 						{
 							putchar(',');
 							putchar(' ');
-							break;
 						}
 				}
 			}
