@@ -21,10 +21,10 @@ int i, j, k;
 						putchar(i);
 						putchar(j);
 						putchar(k);
-						putchar(',');
-						putchar(' ');
-						if (i == 55 && j == 56 && k == 57)
+						if (i !=  55 || j != 56)
 						{
+							putchar(',');
+							putchar(' ');
 							break;
 						}
 				}
