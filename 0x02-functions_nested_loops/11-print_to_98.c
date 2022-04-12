@@ -17,6 +17,10 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
+			else
+			{
+				printf(" ");
+			}
 		}
 	}
 	else if (n > 98)
@@ -27,6 +31,11 @@ void print_to_98(int n)
 			if (j != 98)
 			{
 				printf(", ");
+			
+			}
+			else
+			{
+				printf(" ");
 			}
 		}
 	}
