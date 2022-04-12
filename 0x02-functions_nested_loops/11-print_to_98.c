@@ -4,6 +4,7 @@
 *print_to_98 -  all natural numbers from n to 98
 *@n: an integer
 *Return: void
+*/
 void print_to_98(int n)
 {
 	 if (n<=98)
