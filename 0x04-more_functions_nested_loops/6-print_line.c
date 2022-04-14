@@ -14,9 +14,8 @@ int i;
     {
     if (i > 0)
     {
-        putchar('_');
+        _putchar('_');
     }
     }
-      
-     putchar('\n');
+      _putchar('\n');
 }
