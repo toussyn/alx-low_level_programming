@@ -7,14 +7,14 @@
 * Return: 1 if positive, 0 if zero, -1 if negative
 */
 
-int print_sign(int n)
+int print_sign(int number)
 {
-	if (n > 0)
+	if (number > 0)
 	{
 		_putchar('+');
 		return (1);
 	}
-	else if (n < 0)
+	else if (number < 0)
 	{
 		_putchar('-');
 		return (-1);
