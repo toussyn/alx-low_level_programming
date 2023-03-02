@@ -2,7 +2,7 @@
 
 /**
 *main - Prints all single digit numbers of base 10
-*starting from 0, followed by a new line.
+*starting from 0, followed by anewline.
 *Without the use any variable of type char
 *You can only use the putchar
 *
